@@ -1,0 +1,288 @@
+{
+    "nodes": [{
+            "id": "Informatica",
+            "group": 1
+        },
+        {
+            "id": "Ciencias Formales",
+            "group": 2
+        },
+        {
+            "id": "Logica",
+            "group": 2
+        },
+        {
+            "id": "Matematicas",
+            "group": 2
+        },
+        {
+            "id": "Artes",
+            "group": 3
+        },
+        {
+            "id": "Musica",
+            "group": 3
+        },
+        {
+            "id": "Pintura",
+            "group": 3
+        },
+        {
+            "id": "Literatura",
+            "group": 3
+        },
+        {
+            "id": "Arquitectura",
+            "group": 3
+        },
+        {
+            "id": "Danza",
+            "group": 3
+        },
+        {
+            "id": "Escultura",
+            "group": 3
+        },
+        {
+            "id": "Cine",
+            "group": 3
+        },
+        {
+            "id": "Fonología",
+            "group": 4
+        },
+        {
+            "id": "Fonética",
+            "group": 4
+        },
+        {
+            "id": "Ortografía",
+            "group": 4
+        },
+        {
+            "id": "Morfología",
+            "group": 4
+        },
+        {
+            "id": "Semántica",
+            "group": 4
+        },
+        {
+            "id": "Lexicología",
+            "group": 4
+        },
+        {
+            "id": "Lexicografía",
+            "group": 4
+        },
+        {
+            "id": "Electrónica",
+            "group": 5
+        },
+        {
+            "id": "Neurofisiologia",
+            "group": 6
+        },
+        {
+            "id": "Psicologia",
+            "group": 7
+        },
+        {
+            "id": "Ciencias Sociales",
+            "group": 8
+        },
+        {
+            "id": "Ética y Politica",
+            "group": 8
+        },
+        {
+            "id": "Ciencias del lenguaje",
+            "group": 4
+        },
+        {
+            "id": "Biología",
+            "group": 9
+        },
+        {
+            "id": "Física",
+            "group": 10
+        },
+        {
+            "id": "Química",
+            "group": 10
+        },
+        {
+            "id": "Ciencias Fácticas",
+            "group": 11
+        }
+    ],
+    "links": [{
+            "source": "Ciencias Formales",
+            "target": "Informatica",
+            "value": 1
+        },
+        {
+            "source": "Logica",
+            "target": "Ciencias Formales",
+            "value": 2
+        },
+        {
+            "source": "Matematicas",
+            "target": "Ciencias Formales",
+            "value": 4
+        },
+        {
+            "source": "Artes",
+            "target": "Informatica",
+            "value": 5
+        },
+        {
+            "source": "Matematicas",
+            "target": "Informatica",
+            "value": 6
+        },
+        {
+            "source": "Logica",
+            "target": "Informatica",
+            "value": 7
+        },
+        {
+            "source": "Ciencias del lenguaje",
+            "target": "Informatica",
+            "value": 8
+        },
+        {
+            "source": "Ciencias del lenguaje",
+            "target": "Fonología",
+            "value": 9
+        },
+        {
+            "source": "Ciencias del lenguaje",
+            "target": "Literatura",
+            "value": 11
+        },
+        {
+            "source": "Artes",
+            "target": "Literatura",
+            "value": 10
+        },
+        {
+            "source": "Artes",
+            "target": "Cine",
+            "value": 12
+        },
+        {
+            "source": "Artes",
+            "target": "Escultura",
+            "value": 13
+        },
+        {
+            "source": "Artes",
+            "target": "Danza",
+            "value": 14
+        },
+        {
+            "source": "Artes",
+            "target": "Arquitectura",
+            "value": 15
+        },
+        {
+            "source": "Artes",
+            "target": "Pintura",
+            "value": 16
+        },
+        {
+            "source": "Artes",
+            "target": "Musica",
+            "value": 17
+        },
+        {
+            "source": "Ciencias del lenguaje",
+            "target": "Fonética",
+            "value": 18
+        },
+        {
+            "source": "Ciencias del lenguaje",
+            "target": "Ortografía",
+            "value": 19
+        },
+        {
+            "source": "Ciencias del lenguaje",
+            "target": "Morfología",
+            "value": 20
+        },
+        {
+            "source": "Ciencias del lenguaje",
+            "target": "Semántica",
+            "value": 21
+        },
+        {
+            "source": "Ciencias del lenguaje",
+            "target": "Lexicología",
+            "value": 22
+        },
+        {
+            "source": "Ciencias del lenguaje",
+            "target": "Lexicografía",
+            "value": 23
+        },
+        {
+            "source": "Informatica",
+            "target": "Ciencias Sociales",
+            "value": 24
+        },
+        {
+            "source": "Ciencias Sociales",
+            "target": "Psicologia",
+            "value": 25
+        },
+        {
+            "source": "Ciencias Sociales",
+            "target": "Ética y Politica",
+            "value": 26
+        },
+        {
+            "source": "Electrónica",
+            "target": "Informatica",
+            "value": 27
+        },
+        {
+            "source": "Ciencias Fácticas",
+            "target": "Biología",
+            "value": 28
+
+        },
+        {
+            "source": "Informatica",
+            "target": "Ciencias Fácticas",
+            "value": 29
+        },
+        {
+            "source": "Ciencias Fácticas",
+            "target": "Física",
+            "value": 30
+
+        },
+        {
+            "source": "Ciencias Fácticas",
+            "target": "Química",
+            "value": 31
+        },
+        {
+            "source": "Ciencias Fácticas",
+            "target": "Electrónica",
+            "value": 32
+        },
+        {
+            "source": "Biología",
+            "target": "Neurofisiologia",
+            "value": 33
+        },
+        {
+            "source": "Ciencias Fácticas",
+            "target": "Ciencias Formales",
+            "value": 34
+        }
+
+    ]
+}
