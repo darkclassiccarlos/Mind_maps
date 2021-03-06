@@ -1,9 +1,9 @@
 # Mind_maps
 ## Creación de un mapa mental interactivo para el entendimiento entre la informática y otras ciencias de conocimiento
 
-# Dependendias
+# Dependencias
 *nodejs* \n
-*d3 Data-Driven Documents*
+    *d3 Data-Driven Documents*
 
 ![Librería D3js](https://d3js.org/)
 npm install d3js version 5
